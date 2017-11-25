@@ -1,0 +1,20 @@
+.lugares-title {
+  padding-left: 130px; }
+
+.lugares-recomendados {
+  padding-left: 130px; }
+
+.label label {
+  margin-top: 5px;
+  margin-left: 76.5%;
+  font-size: 1.3em; }
+
+.places {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+input {
+  margin-left: 76.5%;
+  width: 200px !important; }

@@ -1,0 +1,147 @@
+.lugares {
+  width: 100%;
+  display: flex;
+  flex-direction: row !important;
+}
+.card {
+  width: 355px;
+  text-align: justify;
+  margin-bottom: 30px;
+  margin-left: 15px;
+}
+
+.direccion {
+  color: red;
+}
+
+.fa {
+  font-size: 1.5em;
+}
+
+.card h4 {
+  text-align: left !important;
+  color: #0174DF;
+  margin-top: 10px;
+  padding: 10px 10px 10px 10px;
+}
+
+.card p {
+  padding: 10px 10px 10px 10px;
+}
+
+img {
+  width: 354px !important;
+  height: 266px !important;
+}
+
+span {
+  color: red;
+}
+
+.ver-mas {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.ver-mas:hover {
+  color: #0174DF !important;
+  text-decoration: underline !important;
+}
+
+
+
+
+
+
+/*MODAL*/
+
+.Modal-modal-0-3 {
+  border-radius: 10px !important;
+}
+
+.modal-header-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 40px 0px;
+  margin-top: 10px;
+}
+
+.modal-header-price p {
+  margin-top: 30px;
+  font-size: 1.3em;
+}
+
+.modal-container-info {
+  display: flex;
+  flex-direction: row;
+  /*justify-content: space-around;*/
+}
+
+.modal-container-description {
+  width: 50%;
+  margin-right: 50px;
+  padding: 0px 40px 0px;
+  text-align: justify;
+}
+
+.modal-selects {
+  width: 50%;
+}
+
+.modal-selects input {
+  margin-left: 35px !important;
+}
+
+.modal-select-date, .modal-select-schedule {
+  display: flex;
+  flex-direction: row;
+}
+
+.modal-select-date input {
+  justify-content: flex-start !important;
+  margin-left: 0px;
+}
+
+.modal-select-date-text {
+  padding-left: 10px;
+}
+
+.modal-select-schedule {
+  margin-top: 15px;
+}
+
+.modal-select-schedule p {
+  margin-top: 15px;
+}
+
+.modal-footer-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.modal-footer-button button {
+  width: 230px;
+  height: 40px;
+  background-color: #000000;
+  border-radius: 8px;
+  border-width: thin;
+  padding: 3px 1px 1px 1px;
+  color:#fff;
+}
+
+.circle, .circle-2 {
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.circle-2 {
+  margin-top: 13px;
+}
